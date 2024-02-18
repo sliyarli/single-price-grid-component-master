@@ -1,0 +1,86 @@
+* {
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  resize: none;
+  font-family: "Karla", sans-serif;
+}
+
+:root {
+  /* Primary Colors */
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+
+  /* Neutral Colors */
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--light-gray) !important;
+}
+
+.join-us h2 {
+  color: var(--cyan);
+}
+
+.join-us h5 {
+  color: var(--bright-yellow);
+}
+
+.join-us p {
+  color: var(--grayish-blue);
+}
+
+.card-item {
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.subscription {
+  background-color: var(--cyan);
+}
+
+.subscription span {
+  color: var(--light-gray);
+  font-size: 27px;
+  margin-right: 5px;
+}
+
+.subscription h4,
+.why-us h4,
+.subscription a {
+  color: var(--light-gray) !important;
+}
+
+#subs-price {
+  color: #64cdce;
+}
+
+.subscription p {
+  color: var(--light-gray);
+}
+
+.subscription a {
+  background-color: var(--bright-yellow);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.subscription a:hover {
+  background-color: hsla(71, 73%, 54%, 0.865);
+}
+
+.why-us {
+  background-color: #4abebd;
+}
+
+.why-us p {
+  color: hsla(203, 44%, 93%, 0.87);
+}
